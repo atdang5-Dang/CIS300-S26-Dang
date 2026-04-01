@@ -1,0 +1,29 @@
+* { 
+    box-sizing: border-box;
+}
+body {
+    background-color: #fbfaff;
+    color: #333333;
+    font-family: 'Inter', Tahoma, Geneva, sans-serif;
+}
+header {
+    background-color: #c9b8ff;
+    padding: 1rem;
+}
+nav {
+    background-color: #ffd6ff;
+}
+a {
+    color: #333333;
+}
+table {
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+td, th {
+    padding: .5em;
+    border: 2px solid #3399CC;
+}
+td {
+    text-align: center;
+}
