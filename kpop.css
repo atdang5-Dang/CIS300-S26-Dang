@@ -27,3 +27,7 @@ td, th {
 td {
     text-align: center;
 }
+fieldset {
+    border: 2px solid #a633cc;
+    padding: 1em;
+}

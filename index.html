@@ -6,18 +6,16 @@
         <link rel="stylesheet" href="kpop.css">
     </head>
     <body>
-        <div element="root"></div>
+        <div id="root"></div>
         <header>
             <h1><a href="index.html">Annie's K-Pop Blog</a></h1>
         </header>
         <nav>
-            <ul>
-                <a href="index.html">Home</a> &nbsp;
-                <a href="about.html">About Me</a> &nbsp;
-                <a href="comebacks.html">Comebacks</a> &nbsp;
-                <a href="reviews.html">Reviews</a> &nbsp;
-                <a href="profiles.html">Artist Profiles</a>
-            </ul>
+            <a href="index.html">Home</a> &nbsp;
+            <a href="about.html">About Me</a> &nbsp;
+            <a href="comebacks.html">Comebacks</a> &nbsp;
+            <a href="reviews.html">Reviews</a> &nbsp;
+            <a href="profiles.html">Artist Profiles</a>
         </nav>
         <main>
             <h2>Welcome to Annie's K-Pop Blog!</h2>
@@ -26,6 +24,39 @@
                 you can find new comebacks and releases, song and album reviews, 
                 and profiles of groups and artists! Check out what this blog has!
             </p>
+            <h2>Do you want to keep with the latest updates? Sign up in our newsletter here!</h2>
+            <form action="index.html" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="dropdown">Do you prefer boy groups or girl groups?</label>
+                <select id="dropdown" name="dropdown">
+                    <option value="boy_groups">Boy Groups</option>
+                    <option value="girl_groups">Girl Groups</option>
+                    <option value="both">Both</option>
+                </select><br><br>
+
+                <fieldset>
+                    <legend>Favorite K-Pop genre?</legend>
+                    <input type="radio" id="pop" name="genre" value="pop">
+                    <label for="pop">Pop</label><br>
+                    <input type="radio" id="hiphop" name="genre" value="hiphop">
+                    <label for="hiphop">Hip-Hop</label><br>
+                    <input type="radio" id="ballad" name="genre" value="ballad">
+                    <label for="ballad">Ballad</label><br>
+                    <input type="radio" id="r-b" name="genre" value="r-b">
+                    <label for="r-b">R&B</label><br>
+                    <input type="radio" id="edm" name="genre" value="edm">
+                    <label for="edm">EDM</label><br>
+                    <input type="radio" id="other" name="genre" value="other">
+                    <label for="other">Other</label><br><br>
+                </fieldset>
+
+                <button type="submit">Sign Up</button>
+            </form>
             <h2>Featured Content</h2>
             <p>Work in progress!</p>
             <h2>Trending Groups/Artists</h2>
