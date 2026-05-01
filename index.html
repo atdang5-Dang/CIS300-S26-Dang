@@ -3,6 +3,7 @@
     <head>
         <title>Annie's K-Pop Blog</title>
         <meta charset="utf-8">
+        <meta name="description" content="Annie's K-Pop Blog is a blog about K-Pop, where you can find new comebacks and releases, and song and album reviews!">
         <link rel="stylesheet" href="kpop.css">
     </head>
     <body>
@@ -15,85 +16,95 @@
             <a href="about.html">About Me</a> &nbsp;
             <a href="comebacks.html">Comebacks</a> &nbsp;
             <a href="reviews.html">Reviews</a> &nbsp;
-            <a href="profiles.html">Artist Profiles</a>
         </nav>
         <main>
             <h2>Welcome to Annie's K-Pop Blog!</h2>
             <p>
                 Hello, and welcome to my K-Pop blog! My name is Annie, and here, 
-                you can find new comebacks and releases, song and album reviews, 
-                and profiles of groups and artists! Check out what this blog has!
+                you can find new comebacks and releases, and song and album reviews! 
+                Check out what this blog has!
             </p>
-            <h2>Do you want to keep with the latest updates? Sign up in our newsletter here!</h2>
-            <form action="index.html" method="get">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
+            <div class="main-wrapper">
+                <div class="content-row">
+                    <div class="featured-section">
+                        <h2>Featured Content</h2>
+                        <div class="featured-card">
+                            <img src="kpopalbum.jpg" alt="Bunch of K-Pop Albums on the Shelf" width="200" height="200">
+                            <a href="reviews.html">New Song Review!</a>
+                        </div>
+                        <h2>Trending Groups/Artists</h2>
+                        <table>
+                            <tr>
+                                <th>Group/Artist</th>
+                                <th>Debut Year</th>
+                                <th>Company</th>
+                                <th>Fandom</th>
+                            </tr>
+                            <tr>
+                                <td>BTS</td>
+                                <td class="text">2013</td>
+                                <td>BigHit Label</td>
+                                <td>ARMY</td>
+                            </tr>
+                            <tr>
+                                <td>BLACKPINK</td>
+                                <td class="text">
+                                    2016
+                                </td>
+                                <td>YG Entertainment</td>
+                                <td>BLINK</td>
+                            </tr>
+                            <tr>
+                                <td>TWICE</td>
+                                <td class="text">
+                                    2015
+                                </td>
+                                <td>JYP Entertainment</td>
+                                <td>ONCE</td>
+                            </tr>
+                        </table>
+                    </div> 
+                <div class="form-container">
+                    <h2>Do you want to keep with the latest updates? Sign up in our newsletter here!</h2>
+                    <form action="index.html" method="get">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br><br>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
 
-                <label for="dropdown">Do you prefer boy groups or girl groups?</label>
-                <select id="dropdown" name="dropdown">
-                    <option value="boy_groups">Boy Groups</option>
-                    <option value="girl_groups">Girl Groups</option>
-                    <option value="both">Both</option>
-                </select><br><br>
+                        <label for="dropdown">Do you prefer boy groups or girl groups?</label>
+                        <select id="dropdown" name="dropdown">
+                            <option value="boy_groups">Boy Groups</option>
+                            <option value="girl_groups">Girl Groups</option>
+                            <option value="both">Both</option>
+                        </select><br><br>
 
-                <fieldset>
-                    <legend>Favorite K-Pop genre?</legend>
-                    <input type="radio" id="pop" name="genre" value="pop">
-                    <label for="pop">Pop</label><br>
-                    <input type="radio" id="hiphop" name="genre" value="hiphop">
-                    <label for="hiphop">Hip-Hop</label><br>
-                    <input type="radio" id="ballad" name="genre" value="ballad">
-                    <label for="ballad">Ballad</label><br>
-                    <input type="radio" id="r-b" name="genre" value="r-b">
-                    <label for="r-b">R&B</label><br>
-                    <input type="radio" id="edm" name="genre" value="edm">
-                    <label for="edm">EDM</label><br>
-                    <input type="radio" id="other" name="genre" value="other">
-                    <label for="other">Other</label><br><br>
-                </fieldset>
+                        <fieldset>
+                            <legend>Favorite K-Pop genre?</legend>
+                            <input type="radio" id="pop" name="genre" value="pop">
+                            <label for="pop">Pop</label><br>
+                            <input type="radio" id="hiphop" name="genre" value="hiphop">
+                            <label for="hiphop">Hip-Hop</label><br>
+                            <input type="radio" id="ballad" name="genre" value="ballad">
+                            <label for="ballad">Ballad</label><br>
+                            <input type="radio" id="r-b" name="genre" value="r-b">
+                            <label for="r-b">R&B</label><br>
+                            <input type="radio" id="edm" name="genre" value="edm">
+                            <label for="edm">EDM</label><br>
+                            <input type="radio" id="other" name="genre" value="other">
+                            <label for="other">Other</label><br><br>
+                        </fieldset>
 
-                <button type="submit">Sign Up</button>
-            </form>
-            <h2>Featured Content</h2>
-            <p>Work in progress!</p>
-            <h2>Trending Groups/Artists</h2>
-            <table>
-                <tr>
-                    <th>Group/Artist</th>
-                    <th>Debut Year</th>
-                    <th>Company</th>
-                    <th>Fandom</th>
-                </tr>
-                <tr>
-                    <td>BTS</td>
-                    <td class="text">2013</td>
-                    <td>BigHit Label</td>
-                    <td>ARMY</td>
-                </tr>
-                <tr>
-                    <td>BLACKPINK</td>
-                    <td class="text">
-                        2016
-                    </td>
-                    <td>YG Entertainment</td>
-                    <td>BLINK</td>
-                </tr>
-                <tr>
-                    <td>TWICE</td>
-                    <td class="text">
-                        2015
-                    </td>
-                    <td>JYP Entertainment</td>
-                    <td>ONCE</td>
-                </tr>
-            </table>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
             Copyright &copy; Annie's K-Pop Blog 2026; All Rights Reserved <br>
-            <a href="mailto:atdang5@asu.edu">atdang5@asu.edu</a>
+            <a href="mailto:atdang5@asu.edu">Email Me</a>
         </footer>
     </body>
 </html>
